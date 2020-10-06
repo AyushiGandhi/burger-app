@@ -1,0 +1,73 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 80%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.Modal .content{
+    padding: 10px 0 0 50px ;
+    justify-content: center;
+    font-weight: bold;
+    font-family: inherit;
+    text-transform: capitalize;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
+
+
+.Modal button {
+    display: inline-block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 25px;
+    width: 150px;
+    border: 2px solid #F08E4A;
+    cursor: pointer;
+    outline: none;
+}
+
+.Modal .cancel {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+
+.Modal .cancel:hover {
+
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+.Modal .continue {
+
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+
+.Modal .continue:hover {
+
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border: 2px solid green;
+}

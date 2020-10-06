@@ -1,0 +1,76 @@
+.BuildLabel {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 7px 0 0 0;
+
+}
+
+
+.BuildLabel .label {
+    display: inline-flex;
+    text-align: center;
+    font-weight: bold;
+    width: 30px;
+    margin: 7px ;
+    font-size: 130%;
+    padding-right: 10%;
+
+}
+
+.BuildLabel button {
+    display: block;
+    font: inherit;
+    padding: 5px;
+    margin: 0 25px;
+    width: 150px;
+    border: 2px solid #F08E4A;
+    cursor: pointer;
+    outline: none;
+   /* border-radius: 10px;*/
+}
+
+.BuildLabel .Less {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+
+.BuildLabel .Less:hover {
+
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    border: 3px solid red;
+}
+
+.BuildLabel .More {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+
+.BuildLabel .More:hover {
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    border: 3px solid green;
+}
+
+@media screen and  (max-device-width: 600px) {
+    .BuildLabel button {
+        display: block;
+        font: inherit;
+        padding: 5px;
+        margin: 0 15px;
+        width: 150px;
+        border: 1px solid #F08E4A;
+        cursor: pointer;
+        outline: none;
+
+    }
+}

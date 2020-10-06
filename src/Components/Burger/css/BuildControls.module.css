@@ -1,0 +1,65 @@
+.BuildControls {
+    display: flex;
+    flex-flow: column;
+    margin : 0 auto;
+    width: 60%;
+    height: 270px;
+    padding: 20px;
+    justify-content: center;
+    background-color: #c45e38;
+    border: 5px solid saddlebrown;
+    box-shadow: 6px 6px 4px grey;
+}
+.price{
+    font-weight: bold;
+    text-align: center;
+    font-family: inherit;
+    margin: 25px 0 10px 0;
+    font-size: 150%;
+}
+
+.order_now{
+    display: flex;
+    font-size: 110%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    width: 30%;
+    padding: 7px 0 7px 0;
+    border: 5px solid black;
+    margin: 20px auto;
+}
+/*
+.order_now:hover {
+    background-color: #bf3813;
+    color: black;
+    font-size: 110%;
+    font-weight: bold;
+    border: 5px solid black;
+}*/
+
+
+
+
+
+@media screen and  (max-device-width: 600px) {
+    .BuildControls{
+        width: 290px;
+        height: 260px;
+        padding: 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and  (max-device-width: 600px) {
+    .order_now{
+        display: flex;
+        justify-content: center;
+        width: 250px;
+        padding: 7px 0 7px 0;
+        border: 2px solid black;
+        margin: 15px auto;
+    }
+}

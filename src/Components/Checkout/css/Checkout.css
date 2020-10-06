@@ -1,0 +1,53 @@
+/* font-family: 'Lato', sans-serif;*/
+
+
+h2 {
+    color: brown;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Thar Buttons */
+
+button.animated-button.thar-two {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #353535;
+    display: inline-block;
+    margin: 10px 20px 0 10px;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    width: 25%;
+    position: relative;
+    border: 3px solid #353535;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+button.animated-button.thar-two:hover {
+    color: #000 !important;
+    background-color: transparent;
+    text-shadow: black;
+}
+
+button.animated-button.thar-two:hover:before {
+    top: 0;
+    bottom: auto;
+    height: 100%;
+}
+button.animated-button.thar-two:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: #F7CA18;
+    transition: all 0.9s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}

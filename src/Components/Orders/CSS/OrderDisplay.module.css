@@ -1,0 +1,28 @@
+.box {
+    width: 80%;
+    height: auto;
+    border: 2px solid black;
+    margin: 40px 0 40px 40px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.spanhead {
+    color: darkred;
+    font-weight: bold;
+    font-family: inherit ;
+    font-size: 130%;
+}
+
+.spanbox {
+    border: 2px solid black;
+    margin: 10px 10px 30px 10px;
+    padding: 5px;
+    width: 50%;
+}
+
+h4 {
+    color: darkred;
+    text-space: 1.2em;
+}
+

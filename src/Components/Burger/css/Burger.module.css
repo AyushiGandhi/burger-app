@@ -1,14 +1,14 @@
 .Burger{
     width : 100%;
-    height: 450px;
+    height: 400px;
     margin: auto;
-    overflow: scroll;
+  /*  overflow: scroll;*/
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-@media (min-width: 1000px) and (min-height: 500px) {
+@media only screen and (min-width: 900px) and (min-height: 500px) {
     .Burger{
         width: 700px;
         height: 450px;
@@ -19,6 +19,7 @@
     .Burger{
         width: 450px;
         height: 400px;
+
     }
 }
 
@@ -26,5 +27,14 @@
     .Burger{
         width: 350px;
         height: 300px;
+
+    }
+}
+
+
+@media screen and  (max-device-width: 600px) {
+    .Burger{
+        width: 330px;
+        height: 270px;
     }
 }
